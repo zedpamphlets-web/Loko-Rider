@@ -93,7 +93,10 @@
       "supabaseUrl": "https://lmyvvwulabezlglxjzvl.supabase.co",
       "supabaseAnonKey": "sb_publishable_XJVKUkLgF-0OJk2Mf4N8nQ_ZhmtezXu",
       "supabasePublishableKey": "sb_publishable_XJVKUkLgF-0OJk2Mf4N8nQ_ZhmtezXu",
-      "paymentApiUrl": "https://lmyvvwulabezlglxjzvl.supabase.co/functions/v1"
+      "paymentApiUrl": "https://lmyvvwulabezlglxjzvl.supabase.co/functions/v1",
+      "eas": {
+        "projectId": "3d825d83-8e30-4ee6-b552-9e7847a573ca"
+      }
     }
   }
 }
