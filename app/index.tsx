@@ -124,11 +124,11 @@ export default function Welcome() {
         <View style={styles.copy}>
           <Image
             source={require("../assets/logo-loko-full.png")}
-            style={{ width: 230, height: 353 }}
+            style={{ width: 210, height: 328 }}
             contentFit="contain"
-            accessibilityLabel="Loko Cooks"
+            accessibilityLabel="Loko Rider"
           />
-          <Text style={styles.tag}>Rider app</Text>
+          <Text style={styles.tag}>Deliveries made easy</Text>
         </View>
         <View style={styles.actions}>
           <RoleButton

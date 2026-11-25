@@ -1,5 +1,5 @@
 export const colors = {
-  gold: "#FCCC00", // Loko Cooks brand colours live in `ui` below
+  gold: "#FCCC00", // Loko brand colours live in `ui` below
   goldDeep: "#E0B400",
   goldSoft: "#FFEE9A",
   ink: "#111111",
@@ -52,8 +52,8 @@ export const ui = {
   ink: "#1C1B26",
   sub: "#6B6A78",
   hint: "#8E8D99",
-  red: "#8A1C14", // Loko Cooks maroon (headers, active tab, prices)
-  /** Action buttons: Loko Cooks orange, from the approved mockups. */
+  red: "#8A1C14", // Loko maroon (headers, active tab, prices)
+  /** Action buttons: Loko orange, from the approved mockups. */
   btn: "#E07A1F",
   redDeep: "#6E140E",
   redSoft: "#FBEEEA",

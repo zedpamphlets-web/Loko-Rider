@@ -4,15 +4,15 @@ import { Spinner } from "@/components/spinner";
 import { fonts } from "@/lib/theme";
 
 const { width: W } = Dimensions.get("window");
-const LOGO = require("../assets/logo-loko-full.png"); // 496 x 761, transparent background
+const LOGO = require("../assets/logo-loko-full.png"); // transparent background, transparent background
 const LOGO_W = Math.min(W * 0.64, 420);
-const LOGO_H = LOGO_W * (761 / 496);
+const LOGO_H = LOGO_W * (871 / 557);
 
 const HOLD_MS = 1400; // full-screen logo stays up
 const FADE_MS = 350; // then fades away into the app
 
 /**
- * Opening screen: the Loko Cooks logo, full screen on white. It sits in exactly the same place as the
+ * Opening screen: the Loko Rider logo, full screen on white. It sits in exactly the same place as the
  * native splash picture, so the phone's splash and this screen look like one continuous screen.
  *
  * staticBrand: the logo only (shown while fonts load).
@@ -53,7 +53,7 @@ export function BrandSplash({
   if (staticBrand) {
     return (
       <View style={s.page}>
-        <Image source={LOGO} style={{ width: LOGO_W, height: LOGO_H }} resizeMode="contain" accessibilityLabel="Loko Cooks" />
+        <Image source={LOGO} style={{ width: LOGO_W, height: LOGO_H }} resizeMode="contain" accessibilityLabel="Loko Rider" />
       </View>
     );
   }
@@ -63,7 +63,7 @@ export function BrandSplash({
       <View style={s.page}>
         <Image source={LOGO} style={{ width: LOGO_W * 0.55, height: LOGO_H * 0.55 }} resizeMode="contain" />
         <Text style={s.offlineTitle}>No internet connection</Text>
-        <Text style={s.offlineSub}>Connect to the internet to use Loko Cooks.</Text>
+        <Text style={s.offlineSub}>Connect to the internet to use Loko Rider.</Text>
       </View>
     );
   }
@@ -80,7 +80,7 @@ export function BrandSplash({
   return (
     <View style={s.page}>
       <Animated.View style={{ opacity, alignItems: "center", justifyContent: "center" }}>
-        <Image source={LOGO} style={{ width: LOGO_W, height: LOGO_H }} resizeMode="contain" accessibilityLabel="Loko Cooks" />
+        <Image source={LOGO} style={{ width: LOGO_W, height: LOGO_H }} resizeMode="contain" accessibilityLabel="Loko Rider" />
       </Animated.View>
     </View>
   );

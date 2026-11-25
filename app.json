@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Loko Cooks Rider",
-    "slug": "lokorider2027",
+    "name": "Loko Rider",
+    "slug": "loko-rider",
     "owner": "matebeto2027s-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "lokocooksrider",
+    "scheme": "lokorider",
     "platforms": [
       "ios",
       "android"
@@ -26,7 +26,7 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.siximages.lokocooks.rider",
+      "bundleIdentifier": "com.siximages.loko.rider",
       "buildNumber": "1",
       "splash": {
         "image": "./assets/splash.png",
@@ -35,7 +35,7 @@
       }
     },
     "android": {
-      "package": "com.siximages.lokocooks.rider",
+      "package": "com.siximages.loko.rider",
       "versionCode": 1,
       "permissions": [
         "INTERNET",
@@ -76,14 +76,14 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "Allow Loko Cooks Rider to pick food and licence photos from your phone.",
-          "cameraPermission": "Allow Loko Cooks Rider to take food, licence and rider photos."
+          "photosPermission": "Allow Loko Rider to pick food and licence photos from your phone.",
+          "cameraPermission": "Allow Loko Rider to take food, licence and rider photos."
         }
       ],
       [
         "expo-camera",
         {
-          "cameraPermission": "Allow Loko Cooks Rider to capture your rider photo inside the app.",
+          "cameraPermission": "Allow Loko Rider to capture your rider photo inside the app.",
           "recordAudioAndroid": false
         }
       ]
@@ -93,10 +93,7 @@
       "supabaseUrl": "https://lmyvvwulabezlglxjzvl.supabase.co",
       "supabaseAnonKey": "sb_publishable_XJVKUkLgF-0OJk2Mf4N8nQ_ZhmtezXu",
       "supabasePublishableKey": "sb_publishable_XJVKUkLgF-0OJk2Mf4N8nQ_ZhmtezXu",
-      "paymentApiUrl": "https://lmyvvwulabezlglxjzvl.supabase.co/functions/v1",
-      "eas": {
-        "projectId": "3d825d83-8e30-4ee6-b552-9e7847a573ca"
-      }
+      "paymentApiUrl": "https://lmyvvwulabezlglxjzvl.supabase.co/functions/v1"
     }
   }
 }

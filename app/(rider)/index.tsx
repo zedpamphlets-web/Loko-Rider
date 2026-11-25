@@ -133,7 +133,7 @@ export default function RiderHome() {
       <View style={{ flexDirection: "row", alignItems: "center", backgroundColor: ui.red, paddingHorizontal: 16, paddingBottom: 14 }}>
         <Image source={require("../../assets/flame-white.png")} style={{ width: 36, height: 36 }} resizeMode="contain" />
         <View style={{ marginLeft: 10 }}>
-          <Text style={{ fontFamily: fonts.display, fontSize: 17, color: "#fff", letterSpacing: 0.4 }}>LOKO COOKS</Text>
+          <Text style={{ fontFamily: fonts.display, fontSize: 17, color: "#fff", letterSpacing: 0.4 }}>LOKO</Text>
           <Text style={{ fontFamily: fonts.body, fontSize: 11.5, color: "rgba(255,255,255,0.85)" }}>Rider</Text>
         </View>
       </View>
@@ -164,7 +164,7 @@ export default function RiderHome() {
       <View style={{ flexDirection: "row", alignItems: "center", backgroundColor: ui.red, paddingHorizontal: 16, paddingBottom: 14 }}>
         <Image source={require("../../assets/flame-white.png")} style={{ width: 36, height: 36 }} resizeMode="contain" />
         <View style={{ marginLeft: 10 }}>
-          <Text style={{ fontFamily: fonts.display, fontSize: 17, color: "#fff", letterSpacing: 0.4 }}>LOKO COOKS</Text>
+          <Text style={{ fontFamily: fonts.display, fontSize: 17, color: "#fff", letterSpacing: 0.4 }}>LOKO</Text>
           <Text style={{ fontFamily: fonts.body, fontSize: 11.5, color: "rgba(255,255,255,0.85)" }}>Rider</Text>
         </View>
       </View>
